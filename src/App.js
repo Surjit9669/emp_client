@@ -7,7 +7,8 @@ function App() {
 	const [number, setnumber] = useState(0);
 	const [age, setage] = useState(0);
 	const [country, setcountry] = useState("");
-	const [position, setposition] = useState("");
+	const [cdposition, setcdposition] = useState("");
+
 	const display = (e) => {
 		e.preventDefault("");
 		console.log(name + number + age + country + position);
