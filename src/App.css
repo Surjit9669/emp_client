@@ -1,0 +1,154 @@
+:root {
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  margin: 0%;
+  padding: 0%;
+  border-style: none;
+  background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Form csss */
+/* .form-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 40%;
+  min-width: 320px;
+  height: 80vh;
+  border: 1px solid black;
+  outline: 3px solid black;
+  margin-top: 30px;
+  padding-top: 0px;
+}
+
+#save-btn {
+  background-color: #4091e7;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: medium;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+} */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> end */
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(140, 204, 245);
+  border-radius: 10px;
+}
+
+.form_cotainer {
+  width: 90%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  padding: 1rem 1rem 2rem 1rem;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  margin: 1.5rem 0;
+  align-self: self-start;
+  margin: 0px 0px 0px 1.7rem;
+}
+
+button {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+
+}
+
+.form {
+  width: 90%;
+  padding: 0px 0px 30px 0px;
+  background-color: whitesmoke;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.input-container {
+  width: 70%;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  margin: 0px 0px 0.8rem 0px;
+}
+
+.radio-container {
+  width: 70%;
+  display: flex;
+  text-align: start;
+  margin: 0px 0px 0.8rem 0px;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+}
+
+input[type="submit"] {
+  width: 70%;
+  background-color: rgb(99, 235, 126);
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+
+}
